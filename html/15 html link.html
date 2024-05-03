@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+    <!-- menggunakan URL absolut (alamat web lengkap) pada href atributnya, untuk URL relatif digunakan untuk tautan ke halaman web yang sama tanpa https://www-->
+    <h2>absolut url</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https//www.google.com/">google</a></p>
+    <h2>relatif url</h2>
+    <p><a href="html_images.asp">HTML images</a></p>
+    <p><a href="/css/default.asp">CSS tutorial</a></p>
+    <!-- tautan ke alamat email -->
+    <h2>tautan ke alamat email</h2>
+    <p><a href="mailto:ratnanurhidayah475@gmail.com">kirim email</a></p>
+    <!-- menggunakan tombol kode sebagai tautan -->
+    <h2>tombol sedbagai tautan</h2>
+    <p>klik tombol untuk menuju tutorial HTML.</p>
+    <tombol onclick="document.location='default.asp'">Tutorial HTML</tombol>
+
+    <!-- memberikan warna pada tautan HTML -->
+<head>
+<style>
+a:link {
+color: green;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: pink;
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+</style>
+
+<!-- membuat bookmark dalam tautan HTML -->
+<p><a href="#C4">jump to chapter 4</a></p>
+<p><a href="#C10">jump to chapter 10</a></p>
+
+<h2>chapter 1</h2>
+<p>this chapter explains to UI/UX</p>
+<h2>chapter 2</h2>
+<p>this chapter explains to DML</p>
+<h2>chapter 3</h2>
+<p>this chapter explains to DDL</p>
+<h2 id="#C4">chapter 4</h2>
+<p>this chapter explains to Database</p>
+
+</body>
+</head>
+</html>
