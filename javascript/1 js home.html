@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<!-- menentukan elemen HTML dengan id dan mengubah konten dengan elemen innerHTML -->
+<body>
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript dapat mengubah halaman konten HTML.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click here!</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<!-- JavaScript dapat mengubah value atribut -->
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+<p>JavaScript dapat mengubah value atribute</p>
+<p>disini JavaScript dapat mengubah value pada src (gambar).</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<!-- JavaScript menyembunyikan elemen HTML -->
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript dapat menyembunyikan elemen HTML.</p>
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click here!</button>
+
+</body>
+</html> 
