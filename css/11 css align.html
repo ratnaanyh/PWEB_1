@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!-- membuat clearfix untuk memperbaiki masalah elemen yang lebih tidak sesuai maka menggunakan clearfix hack untuk memperbaikinya. -->
+<head>
+<style>
+div {
+  border: 3px solid #4CAF;
+  padding: 25px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Tanpa Clearfix</h2> <!-- tanpa clearfix gambar menjadi tidak sesuai dengan penempatan -->
+>
+<p>Gambar ini memiliki ukuran yang tidak sesuai dengan penempatan:</p>
+
+<div>
+  <img class="img1" src="merbabu.png" alt="merbabu" width="170" height="170">
+  Merbabu via selo . . .
+</div>
+
+<h2 style="clear:right">With New Modern Clearfix</h2> <!-- disertai clearfix untuk memperbaiki penempatan gambar -->
+<p>Tambahkan clearfix untuk memperbaiki masalah pada gambar tersebut:</p>
+
+<div class="clearfix">
+  <img class="img2" src="merbabu.png" alt="merbabu" width="170" height="170">
+  Merbabu via selo . . . 
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<!-- Membuat position sticky pada CSS -->
+<head>
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<p>Try to <b>scroll</b> to understand how to position sticky work </p>
+
+<div class="sticky">I am sticky!</div>
+
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum.</p>
+</div>
+</html>
+
+<!DOCTYPE html>
+<html>
+<!-- Membuat element position absolute pada css -->
+<head>
+    <style>
+    div.relative {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border: 3px solid #73AD21;
+    } 
+    
+    div.absolute {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 200px;
+      height: 100px;
+      border: 3px solid #73AD21;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>position: absolute;</h2>
+    
+    <p>position absolute and relative</p>
+    
+    <div class="relative">This div element has position: relative;
+      <div class="absolute">This div element has position: absolute;</div>
+    </div>
+</body>
+</html>

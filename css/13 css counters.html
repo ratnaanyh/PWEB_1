@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<!-- Counters dalam CSS -->
+<head>
+<style>
+body {
+    /* counter-reset untuk membuat atau mengatur ulang penghitungan */
+  counter-reset: section;
+}
+/* counter-increment untuk menambah nilai penghitung */
+h2::before {
+  counter-increment: section; 
+  content: "Section " counter(section) ": ";
+}
+</style>
+</head>
+<body>
+
+<h1>cOUNTERS Dalam CSS</h1>
+
+<h2>Tutorial HTML</h2>
+<h2>Tutorial CSS</h2>
+<h2>Tutorial JavaScript</h2>
+<h2>Tutorial Python</h2>
+<h2>Tutorial SQL</h2>
+
+</body>
+</html>
+
+

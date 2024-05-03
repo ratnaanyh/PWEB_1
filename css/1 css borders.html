@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+/* mendefinisikan batas titik titik */
+p.dotted {border-style: dotted;}
+/* mendefinisikan batas putus putus */
+p.dashed {border-style: dashed;}
+/* mendefinisikan batas yang solid */
+p.solid {border-style: solid;}
+/* mendefinisikan batas ganda */
+p.double {border-style: double;}
+/* mendefinisikan batas beralur 3D yang bergantung pada batas warna */
+p.groove {border-style: groove;}
+/* mendefinisikan batas bergerigi 3D yang bergantung pada batas warna */
+p.ridge {border-style: ridge;}
+/* mendefinisikan batas sisipan 3D yang bergantung pada batas warna */
+p.inset {border-style: inset;}
+/* mendefinisikan batas awal 3D yang bergantung pada batas warna */
+p.outset {border-style: outset;}
+/* tidak mendifinisikan batas */
+p.none {border-style: none;}
+/* mendefinisikan batas tersembunyi */
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid;}
+    </style>
+    <style>
+p.normal {
+    border: 2px solid red;
+    padding: 5px;
+}
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+}
+    </style>
+</head>
+<!-- border-radius untuk menambah batas bulat ke elemen -->
+<body>
+    <h2>the border-radius</h2>
+    <p class="normal">normal border</p>
+    <p class="round1">round border</p>
+    <p class="round2">rounder border</p>
+    <p class="round3">roundest border</p>
+</body>
+</html>
