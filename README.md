@@ -32,6 +32,8 @@ Elemen HTML juga mendefinisikan teks dalam pemformatan teks. Contohnya
 Ada juga HTML tabel untuk mengatur maupun mengelola data dalam baris dan kolom. Selain tabel HTML terdapat juga HTML list yang mana ada tipe Romawi, square, circle dan lainnya. Ada 2 jenis tabel yaitu, table colspan dan table rowspan. Ketika kita ingin membuat beberapa kolom menjadi berjarak gunakan atribut colspan untuk mengatur jumlah kolom yang direntangkan. Untuk membuat jangkauan pada baris tabel kita dapat menggunakan rowspan untuk jumlah baris yang direntangkan.
 
 Contoh menambahkan gambar pada HTML :
+![WhatsApp Image 2024-05-04 at 11 55 07_687da583](https://github.com/ratnaanyh/PWEB_1/assets/168342459/8a312242-bcf2-4127-9cdd-3a9ebb67ef5b)
+
 
 2. CSS
 Penulisan CSS perlu menggunakan sintaks yang sesuai agar dapat dimengerti oleh sistem komputer. Sintaks CSS juga ada pendeklarasian yang berisi satu atau lebih deklarasi yang dipisahkan oleh ;
